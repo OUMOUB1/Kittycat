@@ -3,10 +3,11 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: grey;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Great Vibes', cursive;
 }
+
 
 /* task 11: add flexbox to the div with a class named navBar.*/
 
