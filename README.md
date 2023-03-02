@@ -1,57 +1,81 @@
-# FLW 01.2 // Code Along & Solo // Class Portfolio
+# Unit 2 Project // Playlist [Medium]
 
-<p>This is your class portfolio! The portfolio includes information about the company, class, Code Nation, and links to all students' portfolios (as they get completed).</p>
-<p>This portfolio will allow us to practice our HTML and CSS and is a great one-stop-shop for your program information.</p>
+## Overview:
 
+In this unit, coders will create a playlist. The playlist will display a list of information about different songs with images and links to play the songs. 
 
-## Set up
+To create this project, coders will create arrays to hold song information, use a for or forEach loop to iterate over the arrays, and display data to the screen. 
 
-- [ ] Fork your own copy of the repl.
-- [ ] Double-check that you are signed in with your GitHub account.
-
-
-## HTML
-
-1. [ ] Update the company name on the about page.
-2. [ ] Include a few facts about the company. Try making this an unordered list!
-3. [ ] On the same page, write a short bio about yourself.
-4. [ ] Include an image that represents something about you - this could be a picture of yourself, an interest of yours, or maybe some art you created!
-5. [ ] On the home page (index.html), update with the correct company name.
-6. [ ] Then, replace the placeholder image with a company logo/image.
-7. [ ] On this same page, add a link to your Fellowship Agenda.
-8. [ ] On the contact page, update the page with your program information.
-9. [ ] Add your contact information to your contact page, including your:
-    - [ ] GitHub account
-    - [ ] Email address
-    - [ ] LinkedIn (if you already have one)
-    - [ ] Resume (if you already have one)
-
-## CSS
-
-10. [ ] Choose 2-4 colors for your theme and add them as font or background colors.
-11. [ ] Add flexbox to the div with class name `navBar`.
-12. [ ] Style your nav bar so the links change color/style when your hover over them.
-13. [ ] Add at least 1 Google Font - either for the headers or paragraphs. Or both! Also, make sure it's linked in the html pages you want it used on!
-14. [ ] Add a border to the images on the home page.
-
-## Wrap-Up
-
-- [ ] Save your changes and push to GitHub
-- [ ] Submit your project link - the url in your web browser - to the Project Submission form.
+They will use .push to add new songs to their playlist. Then, students will refactor their project to using objects instead of arrays to hold their data.
 
 
+## Set-Up
+1. [ ] Fork your own copy of the repl.
+2. [ ] Double-check that you are signed in with your GitHub account.
 
-## Extensions
 
-- [ ] Add a unordered or ordered list of your accomplishments or favorite things to your about page.
-- [ ] Make sure all your external links open up into new tabs.
-- [ ] Add a button that slides information up and down when clicked.
-- [ ] Create a link that pops open the email browser with your email address in the to: field.
+## Planning
+3. [ ] Complete the planning document.
+   - [ ] Look over Inspiration and Ideas
+   - [ ] Fill out the Brainstorm section.
+   - [ ] Fill out the Song Data section.
+4. [ ] Read through the HTML starter code to understand the organization and class names given.
+5. [ ] Read through the JavaScript starter code to determine where each given function is declared and where each given function is called.
+6. [x] Declare variables for your display divs: the image url, song name, artist, and song link. Go back to the HTML to check that you are using the correct class names.
+
+
+## JavaScript: Storing Song Data
+
+7. [ ] Create and populate an array to store your image urls. Create three more arrays. One to store your song names, one for the artists, and a last one for the song links.
+
+
+## JavaScript: Loop and Display Data
+
+8. [ ] Loop through your images array and display the images to your songs in the correct div. Create three more loops. One for the song names, one for the artists, and a last one for the song links.
+
+What to display your song data in:
+
+   - images: `<img>` tag inside a `<p>` tag
+   - song names: `<p>` tag
+   - artist: `<p>` tag
+   - song links: `<a>` tag inside a `<p>` tag
+
+**Note**: There is a function called `emptyDisplay`. Determine where this should be placed in your code. Where does it make sense to call this function?
+
+
+## JavaScript: Add Song Data
+
+9. [ ] Declare a variable to save the user input of the image url. Declare three more variables that save user input: One for the song names, one for the artists, and a last one for the song links.
+   
+10. [ ] Use `.push()` to add each input value to the correct array.
+
+
+
+## JavaScript: Refactor Arrays to Objects
+
+11. [ ] Comment out the arrays data.
+12. [ ] Create an object for each of your songs.
+13. [ ] Inside each object, add key/value pairs to store the image url, song name, artist, and song link.
+14. [ ] Create an array that stores all of the objects.
+
+## JavaScript: Refactor Loops to Display Info
+
+15. [ ] Update your `addSongInfo` function so the input values are saved in as values in a new object.
+16. [ ] Update your `.push()` so the input object is added to your array of objects.
+17. [ ] Update your loops based on your new array of objects.
+
+
+## Project Extensions:
+
+- [ ] Add in your own CSS to personalize your project.
+- [ ] Use .length to display how many songs are on your list.
+- [ ] Add a clear or delete button to clear songs on your list.
+- [ ] Refactor your project further by utilizing functions to simplify your code.
+- [ ] Add a shuffle button and functionality.
 
 
 ## References/Tools
 
-* [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/edit)
-* [W3Schools] (https://www.w3schools.com/)
-* [MDN web docs] (https://developer.mozilla.org/en-US/)
-* [Introduction to Bootstrap] (https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+- [Advanced Reference Table](https://docs.google.com/document/d/1SElvLDvtVOoYZJyR5XbCQJWbSTxyChDiQkz7n3c63Go/preview)
+- [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
+- [JQuery Events](http://api.jquery.com/category/events/)

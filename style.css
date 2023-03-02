@@ -1,57 +1,85 @@
-/* task 10: choose 2-4 colors for your theme and add them as font or background colors*/
-
 html, body {
   height: 100%;
   width: 100%;
-  background-color: grey;
-  color: white;
-  font-family: 'Great Vibes', cursive;
-}
-
-
-/* task 11: add flexbox to the div with a class named navBar.*/
-
-
-/* task 12: style your nav bar so the links change color/style when your hover over them.*/
-
-
-/* task 13: add at least 1 Google Font - either for the headers or paragraphs. Or both! Also, make sure it's linked in the html pages you want it used on!*/
-
-
-a {
-  color: #0080ff;
-}
-
-
-/* task 14: add a border to the images.*/
-.companies {
-  display: flex;
-  justify-content: space-around;
-}
-
-.home {
-  text-align: center;
-}
-
-.student {
-  border: 1px solid white;
-  width: 300px;
-  text-align: center;
-}
-
-.student img {
-  width: 200px;
-}
-
-.students{
-  display: flex;
-  justify-content: space-around;
 }
 
 h1 {
-  color: #fee975;
+  text-align: center;
 }
 
-img {
-  width: 400px;
+.display {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 25px
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  background-color: rgba(76, 175, 80, 0.3)
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.display-image img {
+  display: block;
+  height: 100px;
+  width: auto;
+  
+}
+
+.display-song p {
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  
+}
+
+.display-artist p {
+  font-size: 18px;
+  height: 100px;
+  
+}
+
+
+.display-link a {
+  display: block;
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  
+}
+
+.form {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: black;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: black;
+}
+
+body {
+  background: url(https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg);
+color: white;
+}
+
+h4{
+  color: white;
 }
