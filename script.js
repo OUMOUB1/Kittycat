@@ -60,6 +60,8 @@ songImage:`https://i.ytimg.com/vi/ssD6mzewGVo/maxresdefault.jpg`,
 // task 13: inside each object, add key/value pairs to store the image url, song name, artist, and song link.
 // task 14: create an array that stores all of the objects.
 
+let songs = [song1, song2, song3, song4];
+
 
 
 //REFACTOR LOOPS DAY 
@@ -74,7 +76,10 @@ songImage:`https://i.ytimg.com/vi/ssD6mzewGVo/maxresdefault.jpg`,
 function addSongInfo() {
 
 // task 9: declare a variable to save the user input of the image url. Declare three more variables that save user input: One for the song names, one for the artists, and a last one for the song links.
+ let songs= {
 
+ }
+  
 
 // task 10: use `.push()` to add each input value to the correct array.
 
@@ -85,10 +90,10 @@ function addSongInfo() {
 
 /******** this function empties the display divs each time the button is clicked so that your playlist does not repeatedly add the data too many times. Where should this function be placed???********/
 function emptyDisplay() {
-  displayImage.innerHTML = "";
-  displaySong.innerHTML = "";
-  displayArtist.innerHTML = "";
-  displayLink.innerHTML = "";
+  displayImage.innerHTML = "image";
+  displaySong.innerHTML = "songName";
+  displayArtist.innerHTML = "artist";
+  displayLink.innerHTML = "songlink";
 }
 
 
@@ -97,10 +102,20 @@ function emptyDisplay() {
 function displaySongInfo() {
 
 // task 8: loop through your images array and display the images to your songs in the correct div. Create three more loops. One for the song names, one for the artists, and a last one for the song links.
-
-
-
+  let text = "";
+for (let songs = 0; i < songName.length; i++) {
+  text += SongName[i] + "<br>";
 }
+  for (let artist= 0; i < artist.length; i++){
+    text += artist[i] + "<br>";
+    
+  }
+ for (let songLink= 0; i < songLink.length; i++){
+    text += songLink[i] + "<br>"
+  }
+
+
+
 
 
 

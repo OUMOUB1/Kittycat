@@ -10,15 +10,15 @@ h1 {
 .display {
   display: flex;
   justify-content: space-around;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-top: 5px solid grey;
+  border-bottom: 5px solid grey;
   padding: 25px
 }
 
 .heading {
   display: flex;
   justify-content: space-around;
-  border-top: 5px solid black;
+  border-top: 5px solid grey;
   background-color: rgba(76, 175, 80, 0.3)
 }
 
@@ -76,10 +76,11 @@ button {
 }
 
 body {
-  background: url(https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg);
+background-color: #C8AB83;
 color: white;
 }
 
 h4{
   color: white;
+  font-display:5px center;
 }
